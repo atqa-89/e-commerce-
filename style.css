@@ -1,0 +1,130 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+.navbar{
+    
+    background:#111;
+    color:white;
+    
+   display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 10px 25px;
+    padding-right: 25px;
+}
+
+.logo{
+    font-size:22px;
+    font-weight:bold;
+}
+
+.navbar input{
+    padding:10px;
+    width:300px;
+}
+
+.cart-btn{
+    color:white;
+    text-decoration:none;
+    font-size:15px;
+}
+
+
+.filters {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 8px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+.card button {
+    padding:6px 12px;
+    margin:5px;
+    border:none;
+    cursor:pointer;
+    background:black;
+    color:white;
+    border-radius:5px;
+    transition:0.3s;
+}
+
+.card button:hover {
+    background:#007bff;
+    transform:scale(1.05);
+}
+
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+}
+
+.card img {
+    height: 100px;
+    object-fit: contain;
+}
+
+#product-detail img {
+    height: 900px;
+    object-fit: contain;
+}
+       /* FOOTER */
+.footer {
+    background: #111;
+    color: white;
+    margin-top: 40px;
+    padding: 40px 0 0 0;
+}
+
+.footer-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    width: 30%;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer-section h3,
+.footer-section h4 {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.footer-section a:hover {
+    color: white;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 15px;
+    background: #000;
+    margin-top: 20px;
+}
