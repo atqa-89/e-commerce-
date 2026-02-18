@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div class="navbar">
+    <h2>My Store</h2>
+      <input type="text" id="search" placeholder="Search products..." onkeyup="searchProducts()">
+
+    
+    
+     <a href="cart.html" class="cart-btn">
+        🛒 Cart (<span id="cart-count">0</span>)
+    </a>
+</div>
+<br>
+
+
+<div class="filters">
+    <button onclick="filterProducts('all')">All</button>
+    <button onclick="filterProducts('men')">Men</button>
+    <button onclick="filterProducts('women')">Women</button>
+    <button onclick="filterProducts('electronics')">Electronics</button>
+    <button onclick="filterProducts('jewelery')">Jewelry</button>
+</div>
+
+<div id="products" class="product-grid"></div>
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>My Store</h3>
+            <p>Your trusted online shopping partner. 
+            Best products at best prices.</p>
+        </div>
+
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="cart.html">Cart</a>
+        </div>
+
+        <div class="footer-section">
+            <h4>Contact</h4>
+            <p>Email: support@mystore.com</p>
+            <p>Phone: +92 300 1234567</p>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        © 2026 My Store | All Rights Reserved
+    </div>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
